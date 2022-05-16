@@ -1,0 +1,207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to the website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7704223300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks the website",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4844329900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks signin button",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1186040300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email and password under Already Registered.",
+            "match": {
+              "location": "StepDefinition.stepdef.user_enters_and_under_already_registered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4022438400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the signin button",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_the_signin_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-16T14:54:49.492Z",
+        "line": 10,
+        "name": "Order Tshirt",
+        "description": "",
+        "id": "automate-end-to-end-buy-order-functionality;order-tshirt",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15964100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters their account",
+            "match": {
+              "location": "StepDefinition.stepdef.user_enters_their_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164139000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User moves cursor over Women\u0027s link",
+            "match": {
+              "location": "StepDefinition.stepdef.user_moves_cursor_over_women_s_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8606262800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on T-shirts",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_on_t_shirts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143003600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User hovers mouse on second product",
+            "match": {
+              "location": "StepDefinition.stepdef.user_hovers_mouse_on_second_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4247333100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on More button",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_on_more_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070828000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks the Increase quantity button to 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.stepdef.user_clicks_the_increase_quantity_button_to(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2245187400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Selects size as L",
+            "match": {
+              "location": "StepDefinition.stepdef.user_selects_size_as_l()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085979100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User selects the color",
+            "match": {
+              "location": "StepDefinition.stepdef.user_selects_the_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100789600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks the Add to cart button",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4583134100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks the proceed to checkout button",
+            "match": {
+              "location": "StepDefinition.stepdef.user_clicks_the_proceed_to_checkout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate end to end Buy Order functionality",
+    "description": "",
+    "id": "automate-end-to-end-buy-order-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/automate.feature",
+    "tags": []
+  }
+]

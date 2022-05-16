@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="45.308">
+    <testcase classname="Automate end to end Buy Order functionality" name="Order Tshirt" time="45.114">
+        <system-out><![CDATA[Given User clicks the website...............................................passed
+When User clicks signin button..............................................passed
+And User enters email and password under Already Registered.................passed
+Then User clicks the signin button..........................................passed
+Given User enters their account.............................................passed
+When User moves cursor over Women's link....................................passed
+And User clicks on T-shirts.................................................passed
+And User hovers mouse on second product.....................................passed
+And User clicks on More button..............................................passed
+And User clicks the Increase quantity button to 2...........................passed
+And User Selects size as L..................................................passed
+And User selects the color..................................................passed
+And User clicks the Add to cart button......................................passed
+Then User clicks the proceed to checkout button.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
